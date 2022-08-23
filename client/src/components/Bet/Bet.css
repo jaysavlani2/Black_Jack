@@ -1,0 +1,65 @@
+.bet {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.bet-tokens {
+    position: relative;
+}
+.total {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(50%,-50%);
+    font-size: 16pt;
+    font-weight: 700;
+    color: #fff;
+}
+.deal-button {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(100%,-50%);
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+.bet-coin-button {
+    box-shadow: 3px 3px 5px 2px rgb(0 0 0 / 60%);
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    border-width: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343a40!important;
+    border-color: #17a2b8!important;
+    position: absolute;
+}
+.bet-coin-2x-button{
+    box-shadow: 3px 3px 5px 2px rgb(0 0 0 / 60%);
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    border-width: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    z-index: 2000;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}

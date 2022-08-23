@@ -1,0 +1,60 @@
+.playing-card {
+  font-family: sans-serif;
+  width: 105px;
+  height: 150px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px 5px rgb(0 0 0 / 60%);
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.playing-card.spades,
+.playing-card.clubs {
+  color: black;
+}
+
+.playing-card.hearts,
+.playing-card.diamonds {
+  color: red;
+}
+
+.card-value-suit {
+  display: inline-block;
+  position: absolute;
+}
+
+.card-value-suit.top {
+  top: 5px;
+  left: 5px;
+}
+
+.card-value-suit.bot {
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 5px;
+}
+
+.card-suit {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 33%;
+}
+
+.empty-card {
+  padding: 5px;
+  height: 140px;
+  width: 95px;
+}
+
+.empty-card .empty-inner {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}

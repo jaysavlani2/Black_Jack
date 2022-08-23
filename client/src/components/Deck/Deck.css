@@ -1,0 +1,12 @@
+.deck{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.deck-value {
+    vertical-align: middle;
+}

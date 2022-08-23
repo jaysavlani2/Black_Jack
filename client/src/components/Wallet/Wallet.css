@@ -1,0 +1,53 @@
+.wallet{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 600px;
+    color: #fff;
+    z-index: 3;
+}
+.wallet-header{
+    background-color: #11354f;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border: 1px solid #000;
+    border-bottom: unset;
+    padding: 15px;
+    width: 30%;
+    transform: translateY(1px);
+}
+.all-in-button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    width: 75%;
+}
+.tokens{
+    padding: 30px 15px 15px;
+    background-color: #11354f;
+    border: 1px solid #000;
+    border-radius: 0 0.5rem 0 0;
+    min-height: 270px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.coin-button{
+    box-shadow: 3px 3px 5px 2px rgb(0 0 0 / 60%);
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    border-width: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343a40!important;
+    border-color: #17a2b8!important;
+}
